@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    margin-left:-32%;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    /* height: 700px; */
+}
+
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_list li{
+    list-style: none;
+    padding: 19px 10px;
+
+}
+
+.nav_list li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.nav_list li a:hover{
+    color:red;
+}
+
+.nav_list img{
+    width: 76px;
+    height: 66px;
+    border-radius: 56%;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.first_section
+{
+    width: 60%;
+}
+
+.search{
+    width: 40%;
+    text-align: right;
+}
+
+.search input{
+
+    padding: 6px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin-top: 11px;
+    outline: none;
+    margin-left: -10%;
+    
+}
+
+.btn{
+    width: 85px;
+    padding: 6px;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    background: black;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(233, 101, 14);
+    border: none;
+}
+
+/* .innerLink{
+    display:none;
+    
+}
+
+.first_section ul li:hover  .innerLink{
+    position:absolute;
+    display: block;
+    background-color: rgb(48, 46, 46);
+    margin-left: -2%;
+}
+
+.first_section ul li:hover .innerLink ul{
+    padding: 10px;
+    width: 100px;
+    transition: 00.5s;
+}
+
+.first_section ul li:hover .innerLink ul li{
+    margin-top:-5px;
+    text-align: center;
+    border-bottom:1px dotted #fff ;
+
+}
+
+.first_section ul li:hover .innerLink ul li:last-child{
+    border: none;
+} */
+
+.background{
+    background: rgba(0, 0,0,0.7) url('img/home.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.secondSection{
+    height: 100vh;
+    
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 48%;
+    margin: auto;
+    height: 80%;
+
+}
+
+.content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img{
+    width: 190px;
+    height: 159px;
+    border:3px solid #fff;
+    border-radius:50%;
+
+}
+
+.firstImgBack img{
+    width: 120px;
+    height: 119px;
+    border:3px solid #fff;
+    border-radius:50%;
+}
+
+.firstPara{
+    font-size: 30px;
+    
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.btn1{
+    padding: 4px;
+    width: 100px;
+    border: 2px solid #fff;
+    background: rgb(71, 70, 70);
+    color: rgb(255, 255, 255);
+    font-size:19px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: gray;
+    color: black;
+}
+
+/*============== Second two============= */
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Baloo 2', cursive;
+}
+
+.secondTag{
+    font-size: 15px;
+}
+
+.secondImg{
+    margin-left: 10px;
+    border-radius: 26px;
+}
+
+.secondImg img{
+    border-radius: 26px;
+    border:2px solid rgb(0, 0, 0); 
+}
+
+/* Fourth section */
+.fourth{
+    flex-direction: row-reverse;
+    height: 10%;
+}
+/* 
+.thirdTag{
+    font-size: 27px;
+} */
+
+.thumb{
+    margin-right: 22px;
+    margin-top: 20px;
+}
+
+/* ===============Contact================== */
+
+.contact{
+    height: 700px;
+    background: rgb(237 233 233);
+}
+
+.text-advance{
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 33px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.form{
+    max-width: 62%;
+    margin: 20px auto;
+}
+
+.form-input{
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 6px;
+    border: #fff;
+    margin: 15px;
+    border: 2px solid gray;
+    font-family: 'Baloo 2', cursive;
+}
+
+.submit{
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-left: 15px;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.line
+{
+    height: 4px;
+    width: 29px;
+    background-color: #fff;
+    margin: 5px 3px;
+}
+
+.burger{
+    display: none;
+}
+
+.submit:hover{
+    color: #fff;
+    background: rgb(201, 194, 194);
+}
+
+/* ===============Footer============= */
+.footer{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    font-size: 17px;
+    /* width: 100%; */
+    font-family: 'Baloo 2', cursive;
+}
+
+@media only  screen and (max-width:1052px) {
+    .nav_list{
+        flex-direction: column;
+        /* height: 0px; */
+    }
+
+    .navbar{
+        height: 400px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .search{
+        width: 32%;
+        text-align: center;
+    }
+    
+    #searchKaro{
+        width: 100%;
+    }
+
+    .btn{
+        margin:auto;
+    }
+
+    .burger{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        display: block;
+        cursor: pointer;
+    }
+
+    .first_section{
+      
+    max-width: 91px;
+    }
+
+    .h-height{
+        height: 71px;
+    }
+
+    .burger{
+        top:25px;
+    }
+
+
+    .visibility{
+        display: none;
+    }
+
+    .firstPara{
+        text-align: center;
+    }
+
+    .secondPara{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+   .first{
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+
+   .third{
+       flex-direction: column-reverse;
+       margin-top: 24px;
+    
+   }
+}
